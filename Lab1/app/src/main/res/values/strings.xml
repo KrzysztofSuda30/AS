@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab1</string>
+    <string name="sortuj">Sortuj</string>
+    <string name="wybierz_metode_sortowania">Wybierz metode sortowania</string>
+    <string name="bombelkowe">Bombelkowe</string>
+    <string name="szybkie">Szybkie</string>
+    <string name="miejsce_na_ci_g_liczb">Miejsce na ciąg liczb</string>
+    <string name="wpisz_ci_g_liczb_przyk_ad_9_12_4_8">Wpisz ciąg liczb Przykład: 9,12,4,8</string>
+</resources>
