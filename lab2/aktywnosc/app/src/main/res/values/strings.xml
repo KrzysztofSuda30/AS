@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">aktywnosc</string>
+    <string name="sortuj">sortuj</string>
+    <string name="wybierz_metod_sortowania">Wybierz metodę sortowania</string>
+    <string name="b_belkowe">Bąbelkowe</string>
+    <string name="szybkie">Szybkie</string>
+    <string name="wpisz_ci_g">Wpisz ciąg</string>
+    <string name="nazwa">nazwa</string>
+    <string name="nowy">nowy</string>
+    <string name="powr_t">Powrót</string>
+    <string name="stary">stary</string>
+</resources>
