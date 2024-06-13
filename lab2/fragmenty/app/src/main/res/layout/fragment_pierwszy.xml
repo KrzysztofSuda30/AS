@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentjeden"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pierwszy">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/wybierz_metod_sortowania"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/przel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="16dp"
+        android:minHeight="48dp"
+        android:text="@string/b_belkowe"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:text="@string/szybkie"
+        app:layout_constraintBottom_toBottomOf="@+id/przel"
+        app:layout_constraintStart_toEndOf="@+id/przel" />
+
+    <EditText
+        android:id="@+id/ciog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="1dp"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="@string/tu_wpisz_ci_g_liczb"
+        app:layout_constraintStart_toStartOf="@+id/przel"
+        app:layout_constraintTop_toBottomOf="@+id/przel"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/sortuj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/sortuj"
+        app:layout_constraintEnd_toEndOf="@+id/ciog"
+        app:layout_constraintStart_toStartOf="@+id/ciog"
+        app:layout_constraintTop_toBottomOf="@+id/ciog" />
+</androidx.constraintlayout.widget.ConstraintLayout>

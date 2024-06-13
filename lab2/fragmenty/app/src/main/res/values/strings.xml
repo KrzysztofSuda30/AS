@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">fragmenty</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tu_wpisz_ci_g_liczb">Tu wpisz ciąg liczb</string>
+    <string name="b_belkowe">Bąbelkowe</string>
+    <string name="sortuj">Sortuj</string>
+    <string name="wybierz_metod_sortowania">Wybierz metodę sortowania</string>
+    <string name="szybkie">Szybkie</string>
+    <string name="nazwa">nazwa</string>
+    <string name="nowy">nowy</string>
+    <string name="opis">opis</string>
+    <string name="stary">stary</string>
+</resources>

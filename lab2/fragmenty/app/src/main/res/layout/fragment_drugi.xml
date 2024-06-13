@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Drugi">
+
+    <TextView
+        android:id="@+id/nazwa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:text="@string/nazwa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/stary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/stary"
+        app:layout_constraintStart_toStartOf="@+id/nazwa"
+        app:layout_constraintTop_toBottomOf="@+id/nazwa" />
+
+    <TextView
+        android:id="@+id/nowy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/nowy"
+        app:layout_constraintStart_toStartOf="@+id/stary"
+        app:layout_constraintTop_toBottomOf="@+id/stary" />
+
+    <TextView
+        android:id="@+id/opis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/opis"
+        app:layout_constraintStart_toStartOf="@+id/nowy"
+        app:layout_constraintTop_toBottomOf="@+id/nowy" />
+</androidx.constraintlayout.widget.ConstraintLayout>
