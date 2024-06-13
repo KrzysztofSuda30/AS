@@ -5,6 +5,10 @@
     android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="20sp"
+    android:layout_marginBottom="20sp"
+    android:paddingTop="20sp"
+    android:paddingBottom="20sp"
     tools:context=".Drugi">
 
     <TextView
@@ -34,12 +38,4 @@
         app:layout_constraintStart_toStartOf="@+id/stary"
         app:layout_constraintTop_toBottomOf="@+id/stary" />
 
-    <TextView
-        android:id="@+id/opis"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:text="@string/opis"
-        app:layout_constraintStart_toStartOf="@+id/nowy"
-        app:layout_constraintTop_toBottomOf="@+id/nowy" />
 </androidx.constraintlayout.widget.ConstraintLayout>

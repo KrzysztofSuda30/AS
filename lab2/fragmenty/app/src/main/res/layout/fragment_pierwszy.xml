@@ -4,8 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/fragmentjeden"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Pierwszy">
+    android:layout_height="270sp"
+    android:paddingTop="20sp"
+    android:paddingBottom="20sp"
+    tools:context="com.amw.fragmenty.Pierwszy">
 
     <TextView
         android:id="@+id/textView"
@@ -43,13 +45,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_marginTop="1dp"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="text"
         android:minHeight="48dp"
         android:text="@string/tu_wpisz_ci_g_liczb"
         app:layout_constraintStart_toStartOf="@+id/przel"
-        app:layout_constraintTop_toBottomOf="@+id/przel"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/przel" />
 
     <Button
         android:id="@+id/sortuj"
