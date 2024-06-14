@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="43dp"
+        android:text="@string/gdynia"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/gdynia_to_nowoczesne_miasto_portowe_po_o_one_na_p_nocy_polski_nad_morzem_ba_tyckim_jest_cz_ci_tr_jmiasta_w_sk_ad_kt_rego_wchodz_tak_e_gda_sk_i_sopot_gdynia_s_ynie_z_pi_knych_pla_nowoczesnej_architektury_i_wa_nego_portu_morskiego_miasto_jest_r_wnie_znane_z_licznych_festiwali_kulturalnych_takich_jak_open_er_festival_atrakcje_turystyczne_obejmuj_m_in_skwer_ko_ciuszki_akwarium_gdy_skie_oraz_muzeum_emigracji_gdynia_jest_dynamicznie_rozwijaj_cym_si_o_rodkiem_gospodarczym_kulturalnym_i_naukowym"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="VisualLintLongText" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="@string/najpopularniejsze_atrakcje_turysstyczne"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Spinner
+        android:id="@+id/wybr"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="1dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/przejdz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/wybierz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wybr" />
+</androidx.constraintlayout.widget.ConstraintLayout>

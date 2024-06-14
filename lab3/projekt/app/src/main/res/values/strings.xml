@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">projekt</string>
+    <string name="gdynia">Gdynia</string>
+    <string name="gdynia_to_nowoczesne_miasto_portowe_po_o_one_na_p_nocy_polski_nad_morzem_ba_tyckim_jest_cz_ci_tr_jmiasta_w_sk_ad_kt_rego_wchodz_tak_e_gda_sk_i_sopot_gdynia_s_ynie_z_pi_knych_pla_nowoczesnej_architektury_i_wa_nego_portu_morskiego_miasto_jest_r_wnie_znane_z_licznych_festiwali_kulturalnych_takich_jak_open_er_festival_atrakcje_turystyczne_obejmuj_m_in_skwer_ko_ciuszki_akwarium_gdy_skie_oraz_muzeum_emigracji_gdynia_jest_dynamicznie_rozwijaj_cym_si_o_rodkiem_gospodarczym_kulturalnym_i_naukowym">Gdynia to nowoczesne miasto portowe położone na północy Polski, nad Morzem Bałtyckim. Jest częścią Trójmiasta, w skład którego wchodzą także Gdańsk i Sopot. Gdynia słynie z pięknych plaż, nowoczesnej architektury i ważnego portu morskiego. Miasto jest również znane z licznych festiwali kulturalnych, takich jak Open\'er Festival. Atrakcje turystyczne obejmują m.in. Skwer Kościuszki, Akwarium Gdyńskie oraz Muzeum Emigracji. Gdynia jest dynamicznie rozwijającym się ośrodkiem gospodarczym, kulturalnym i naukowym.</string>
+    <string name="najpopularniejsze_atrakcje_turysstyczne">Najpopularniejsze atrakcje turysstyczne:</string>
+    <string name="wybierz">wybierz</string>
+    <string-array name="spinner_items">
+        <item>Skwer Kościuszki</item>
+        <item>Akwarium Gdyńskie</item>
+        <item>Muzeum Emigracji</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dodaj">Dodaj</string>
+    <string name="wpisz_tytu">Wpisz tytuł</string>
+    <string name="tre">Treść</string>
+    <string name="skwer_ko_ciuszki">Skwer Kościuszki</string>
+    <string name="skwer_ko_ciuszki_jest_jednym_z_najbardziej_rozpoznawalnych_miejsc_w_gdyni_prowadz_cym_do_mola_po_udniowego_to_popularne_miejsce_spacer_w_kt_re_oferuje_widoki_na_zatok_gda_sk_a_tak_e_na_wiele_historycznych_statk_w_zacumowanych_w_porcie_w_tym_s_ynny_dar_pomorza_i_niszczyciel_orp_b_yskawica">Skwer Kościuszki jest jednym z najbardziej rozpoznawalnych miejsc w Gdyni, prowadzącym do Mola Południowego. To popularne miejsce spacerów, które oferuje widoki na Zatokę Gdańską, a także na wiele historycznych statków zacumowanych w porcie, w tym słynny Dar Pomorza i niszczyciel ORP Błyskawica.</string>
+    <string name="po_wi_cej_informacji_udaj_si_na_https_pl_wikipedia_org_wiki_skwer_ko_c5_9bciuszki_w_gdyni">Po więcej informacji udaj się na : https://pl.wikipedia.org/wiki/Skwer_Ko%C5%9Bciuszki_w_Gdyni</string>
+    <string name="powr_t">Powrót</string>
+    <string name="akwarium_gdy_skie">Akwarium Gdyńskie</string>
+    <string name="akwarium_gdy_skie_jest_jednym_z_najpopularniejszych_miejsc_rodzinnych_w_gdyni_znajduje_si_na_ko_cu_mola_po_udniowego_i_oferuje_szerok_gam_morskich_stworze_z_r_nych_cz_ci_wiata">Akwarium Gdyńskie jest jednym z najpopularniejszych miejsc rodzinnych w Gdyni. Znajduje się na końcu Mola Południowego i oferuje szeroką gamę morskich stworzeń z różnych części świata.</string>
+    <string name="po_wi_cej_informacji_udaj_si_na_https_akwarium_gdynia_pl">Po więcej informacji udaj się na: https://akwarium.gdynia.pl/</string>
+    <string name="muzeum_emigracji">Muzeum Emigracji</string>
+    <string name="muzeum_emigracji_znajduje_si_w_historycznym_budynku_dworca_morskiego_sk_d_wyrusza_y_statki_z_emigrantami_do_ameryki_i_innych_cz_ci_wiata_jest_to_unikalne_muzeum_po_wi_cone_historii_polskiej_emigracji">Muzeum Emigracji znajduje się w historycznym budynku Dworca Morskiego, skąd wyruszały statki z emigrantami do Ameryki i innych części świata. Jest to unikalne muzeum poświęcone historii polskiej emigracji.</string>
+    <string name="wi_cej_informacji_znajdziesz_na_sstronie_https_polska1_pl">Więcej informacji znajdziesz na sstronie: https://polska1.pl/</string>
+</resources>
